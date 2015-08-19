@@ -52,6 +52,52 @@ img{
 
 }
 
+#callout p a {
+    color: #F1F0D1;
+    text-decoration: none;
+}
+
+header{
+    width: 96%;
+    min-height: 125px;
+    padding: 5px;
+    text-align: center;
+}
+
+/*NAV styling*/
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 50px;
+}
+
+nav ul li{
+    float: left;
+    border: 1px solid #878E63;
+    width: 15%;
+}
+
+nav ul li a {
+    background: #F1F0D1;
+    display: block;
+    padding: 5% 12%;
+    font-weight: bold;
+    font-size: 18px;
+    color: #878E63;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul li a:hover, nav ul li.active a {
+    background-color: #757E52;
+    color: #ffffff;
+}
+
+.banner img{
+    width:100%;
+    border-top: 1px solid  #878E63;
+    border-bottom: 1px solid  #878E63;
+}
 .goal{
    text-indent: 50px;
 }
