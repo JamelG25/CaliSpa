@@ -1,5 +1,12 @@
-.say{
-    text-align: center;
+body{
+   background-image: url("../images/flowers.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Verdan, Tahoma, Arial, sans-serif;
+    font-size: 18px;
+    overflow: auto;
 }
 
 .goal{
