@@ -98,6 +98,58 @@ nav ul li a:hover, nav ul li.active a {
     border-top: 1px solid  #878E63;
     border-bottom: 1px solid  #878E63;
 }
+
+.clearfix{
+    clear: both;
+}
+
+.therapy{
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+}
+
+.left-col{
+    width: 55%;
+    float: left;
+    margin: -2% 1% 1% 1%;
+}
+
+.sidebar{
+    width: 40%;
+    float: right;
+    margin: 1%;
+    text-align: center;
+}
+
+.section{
+    width: 29%;
+    float: left;
+    margin: 2% 2%;
+    text-align: center;
+}
+
+footer{
+    background: #878E63;
+    width: 100%;
+    overflow: hidden;
+}
+
+footer p, footer h3{
+    color: #ffffff;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display:inline;
+}
+
+
 .goal{
    text-indent: 50px;
 }
